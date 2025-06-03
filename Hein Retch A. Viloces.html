@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hein Retch Alcantara Vailoces</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    nav h1 {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #1abc9c;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .section:nth-child(even) {
+      background-color: #ecf0f1;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p, ul {
+      max-width: 800px;
+      margin: 0.5rem auto;
+      font-size: 1.1rem;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    .cta {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #1abc9c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .cta:hover {
+      background-color: #16a085;
+    }
+
+    .clickable {
+      color: #1abc9c;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .clickable:hover {
+      color: #16a085;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #1abc9c;
+      margin: 1rem auto;
+      display: block;
+    }
+
+    .gallery-img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Hein Retch A. Vailoces</h1>
+      <ul>
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#background">Background</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="landing" class="section">
+    <h2>Welcome to My Digital World</h2>
+    <img src= c:\Users\Hains\Downloads\Me.jpg alt="Hein Retch Portrait" class="profile-img">
+    <p>Hi, I'm Hein Retch Alcantara Vailoces, a passionate front-end developer and graphic designer a proud BSIT Student.</p>
+    <a href="#about" class="cta">Get to Know Me</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m Hein Retch Alcantara Vailoces, 22 years old, born on April 16, 2003. I live in Brgy. San Manuel Purok Masipag, Puerto Princesa City, Palawan, Philippines. Doing graphic design and front end development makes me love technology more .</p>
+  </section>
+
+  <section id="background" class="section">
+    <h2>Background</h2>
+    <p>I’ve worked with my father installing glass in buildings, which gave me hands-on experience in real-world work environments and improved my attention to detail and teamwork.</p>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <p>My experience includes real-world hands-on work, and I’ve spent time sharpening my front end web development and graphic design skills.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Graphic Design using digital art tools <img src= c:\Users\Hains\Downloads\Graphic.jpg alt="Blender Project" class="gallery-img"></li>
+      <li>Front-end Web Development (HTML, CSS, JavaScript) <img src= c:\Users\Hains\Downloads\Website.jpg alt="Front-end Dev" class="gallery-img"></li>
+    </ul>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <ul>
+      <li>Business Logo Design <img src= c:\Users\Hains\Downloads\Logo.webp alt="Business Logo" class="gallery-img"></li>
+      <li>Front-End Website Development <img src= c:\Users\Hains\Pictures\Frontend.png alt="Front-End Service" class="gallery-img"></li>
+      <li>Network Analyst <img src= c:\Users\Hains\Pictures\Analyst.png alt="System Analyst" class="gallery-img"></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Phone: <a href="tel:09934236282" class="clickable">09934236282</a></p>
+    <p>Email: <a href="mailto:Icereamyfie@gmail.com" class="clickable">Icereamyfie@gmail.com</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/Hein Retch.Official" class="clickable" target="_blank">Hein Retch </a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hein Retch Alcantara Vailoces. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
